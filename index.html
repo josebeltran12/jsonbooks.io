@@ -7,37 +7,48 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
-    <title>Hello, world!</title>
-    <style media="screen">
-      body {font-family: 'Indie Flower', sans-serif;}
-    </style>
+
+    <title>My Favorite Books</title>
   </head>
   <body>
     <div class="container-fluid">
-      <div class="jumbotron text-center">
-        <h1 class="display-4">Hello, world!</h1>
-        <h1 id="name" class="display-4">My Name is<spam id="name"> ????</spam></h1>
-        <hr class="my-4">
-        <p>Click the button below to find out what my name is!</p>
-        <button onclick="changeName()" type="button" class="btn btn-outline-primary btn-lg">Reveal Name</button>
+  <!-- Content here -->
+    <div class="row text-center my-5">
+      <div class="col-12">
+        <h1><center> My Favorite Books!</center></h1>
       </div>
     </div>
-    <script>
-    function changeName(){
-      var xhttp= new XMLHttpRequest();
 
-      xhttp.onreadystatechange= function(){
-        if(this.readyState== 4 && this.status== 200){
-          document.getElementById("name").innerHTML= this.responseText;
-          document.getElementById("info".innerHTML = "I am " + "and I am a " + nameObj.role;        }
-      }
-    }  
-      xhttp.open("GET", "name.txt", true);
-      xhttp.send();
-    }
+  <div class="row justify-content-center">
+    <div class="col-md-3">
 
-    </script>
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Book title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Book title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Book title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

@@ -1,0 +1,38 @@
+{
+  "books":
+  [
+    {
+      "title":"IT",
+      "author":"Stephen King",
+      "reviews":
+    ]
+      {"firstReview":"this is a review"},
+      {"firstReview":"this is a review"},
+      {"firstReview":"this is a review"},
+      ]
+    },
+  {
+      "title":"Misery",
+      "author":"Stephen King",
+      "coverImage":"img/,Misery-cover.jpg",
+      "summary":"adding somthing later",
+      "reviews":
+      [
+        {"firstReview":"this is a review"}
+        {"firstReview":"this is a review"}
+        {"firstReview":"this is a review"}
+      ]
+  }
+  {
+      "title":"The Stand",
+      "author":"Stephen King",
+      "coverImage":"img/Misery-cover.jpg",
+      "summary":"adding somthing later",
+      "reviews":
+      [
+        {"firstReview":"this is a review"}
+        {"firstReview":"this is a review"}
+        {"firstReview":"this is a review"}
+      ]
+  }
+}

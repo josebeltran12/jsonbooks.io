@@ -1,38 +1,12 @@
-{
-  "books":
-  [
-    {
-      "title":"IT",
-      "author":"Stephen King",
-      "reviews":
-    ]
-      {"firstReview":"this is a review"},
-      {"firstReview":"this is a review"},
-      {"firstReview":"this is a review"},
-      ]
-    },
+
   {
-      "title":"Misery",
-      "author":"Stephen King",
-      "coverImage":"img/,Misery-cover.jpg",
-      "summary":"adding somthing later",
+      "title":"percy jackson lightning thief",
+      "author":"Rick Riordan",
+      "coverImage":"img//Misery-cover.jpg",
+      "summary":"Always trouble-prone, the life of teenager Percy Jackson (Logan Lerman) gets a lot more complicated when he learns he's the son of the Greek god Poseidon. At a training ground for the children of deities, Percy learns to harness his divine powers and prepare for the adventure of a lifetime: he must prevent a feud among the Olympians from erupting into a devastating war on Earth, and rescue his mother from the clutches of Hades, god of the underworld.",
       "reviews":
       [
-        {"firstReview":"this is a review"}
-        {"firstReview":"this is a review"}
-        {"firstReview":"this is a review"}
+        {"firstReview":"this is a good book"}
+
       ]
-  }
-  {
-      "title":"The Stand",
-      "author":"Stephen King",
-      "coverImage":"img/Misery-cover.jpg",
-      "summary":"adding somthing later",
-      "reviews":
-      [
-        {"firstReview":"this is a review"}
-        {"firstReview":"this is a review"}
-        {"firstReview":"this is a review"}
-      ]
-  }
-}
+  },
